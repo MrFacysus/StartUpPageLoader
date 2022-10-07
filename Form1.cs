@@ -44,7 +44,6 @@ namespace StartupPageLoader
         {
             // write the textbox value to the file
             System.IO.File.WriteAllText("previous.cfg", textBox1.Text);
-            System.Diagnostics.Process.Start("https://www.google.com");
         }
     }
 }
